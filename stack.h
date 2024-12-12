@@ -9,6 +9,7 @@ int top;
 int size;
 } Stack;
 
+/* 관련 함수 */
 Stack * create_stack(int initial_size);
 void make_empty(Stack *s);
 bool is_empty(Stack *s);

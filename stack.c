@@ -63,6 +63,7 @@ void stack_overflow(void)
 void stack_underflow(void)
 {
 	printf("Not enough operands in expression\n");
+	printf("Try Again\n");
 	exit(EXIT_FAILURE);
 }
 
